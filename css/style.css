@@ -1,0 +1,139 @@
+:root {
+    --black-blue-font: #26252A;
+}
+
+body {
+    font-family: 'Circe';
+    font-style: normal;
+}
+
+.font_regular {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 130%;
+    color: var(--black-blue-font);
+}
+
+.font_title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    color: var(--black-blue-font);
+}
+
+.font_subtitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: var(--black-blue-font);
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1218px;
+}
+
+@keyframes circle-appearance {
+    from {opacity: 0%;
+        transform: scale(.2, .2)}
+    to {opacity: 100%;
+        transform: scale(1, 1);}
+}
+
+.history__title-circle-animation {
+    animation: circle-appearance 2s linear 0s 1;
+}
+
+.history__contents-circle-animation {
+    animation: circle-appearance 2s linear 0.1s 1;
+}
+
+.development__yellow-circle-animation {
+    animation: circle-appearance 2s linear 0s 1;
+}
+
+.development__purple-circle-animation {
+    animation: circle-appearance 2s linear 0.1s 1;
+}
+
+@keyframes microphone-rotation {
+    33% {transform: rotate(15deg);}
+    66% {transform: rotate(-15deg);}
+    99% {transform: rotate(0deg);}
+}
+
+.microphone-rotation-animation {
+    animation: microphone-rotation 3s linear 0s 1;
+}
+
+@keyframes girl-rotation {
+    33% {transform: rotate(-9deg);}
+    66% {transform: rotate(8deg);}
+    99% {transform: rotate(0deg);}
+}
+
+.girl-rotation-animation {
+    animation: girl-rotation 3s linear 0s 1;
+}
+
+@keyframes sliding {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+
+.ads__image-1-animation {
+    animation: sliding 1s linear 0.1s 1 forwards;
+}
+
+.ads__image-2-animation {
+    animation: sliding 1s linear 0.2s 1 forwards;
+}
+
+.ads__image-3-animation {
+    animation: sliding 1s linear 0.1s 1 forwards;
+}
+
+.ads__image-4-animation {
+    animation: sliding 1s linear 0.2s 1 forwards;
+}
+
+.ads__image-5-animation {
+    animation: sliding 1s linear 0.3s 1 forwards;
+}
+
+.ads__image-6-animation {
+    animation: sliding 1s linear 0.1s 1 forwards;
+}
+
+.ads__image-7-animation {
+    animation: sliding 1s linear 0.2s 1 forwards;
+}
+
+@keyframes results-appearance {
+    from {opacity: 0%;
+        transform: scale(.6, .6)}
+    to {opacity: 100%;
+        transform: scale(1, 1);
+    visibility: visible;}
+}
+
+.results__item-1-animation {
+    animation: results-appearance 2s linear 0s 1 forwards;
+}
+
+.results__item-2-animation {
+    animation: results-appearance 2s linear 0.5s 1 forwards;
+}
+
+.results__item-3-animation {
+    animation: results-appearance 2s linear 1s 1 forwards;
+}
+
+.results__item-4-animation {
+    animation: results-appearance 2s linear 1.5s 1 forwards;
+}

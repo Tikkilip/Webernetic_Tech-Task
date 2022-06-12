@@ -1,0 +1,52 @@
+.development {
+    margin: 137.5px 0 200px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.development__text {
+    max-width: 554px;
+    position: relative;
+}
+
+.development__image {
+    position: relative;
+}
+
+.development__title {
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+
+.development__list-item {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.development__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.development__yellow-circle {
+    background: url(../img/development__yellow-circle.png) no-repeat;
+    position: absolute;
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    top: 6224px;
+    left: 246px;
+}
+
+.development__purple-circle {
+    background: url(../img/development__purple-circle.png) no-repeat;
+    position: absolute;
+    max-width: 202px;
+    max-height: 202px;
+    width: 100%;
+    height: 100%;
+    top: 6620px;
+    left: 956px;
+}

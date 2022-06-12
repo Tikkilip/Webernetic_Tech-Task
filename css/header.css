@@ -1,0 +1,22 @@
+.header {
+    margin: 80px 0 41px 0;
+}
+
+.header__circle {
+    position: absolute;
+    top: 0;
+    left: 136px;
+    width: 100%;
+    height: 100%;
+    max-width: 516.91px;
+    max-height: 516.91px;
+    background: url(../img/header__pink-circle.png) no-repeat;
+}
+
+.header__contents {
+    position: relative;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100%;
+    color: var(--black-blue-font);
+}

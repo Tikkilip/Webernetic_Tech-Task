@@ -1,0 +1,44 @@
+.history {
+    position: relative;
+    margin-bottom: 180px;
+}
+
+.history__title {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.history__contents {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+    position: relative;
+}
+
+.history__text {
+    max-width: 730px;
+}
+
+.history__title-circle {
+    position: absolute;
+    background: url(../img/history__purple-circle.png) no-repeat;
+    max-width: 154px;
+    max-height: 154px;
+    width: 100%;
+    height: 100%;
+    top: -40px;
+    left: -32px;
+}
+
+.history__contents-circle {
+    position: absolute;
+    background: url(../img/history__pink-circle.png) no-repeat;
+    max-width: 375px;
+    max-height: 375px;
+    width: 100%;
+    height: 100vh;
+    left: 388px;
+    top: 46px;
+}
